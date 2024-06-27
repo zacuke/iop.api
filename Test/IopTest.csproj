@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+ 
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Iop.Test.Program</StartupObject>
+    <UserSecretsId>ebd63905-7441-4501-808b-7246643a1003</UserSecretsId>
+  </PropertyGroup>
+ 
+ 
+  <ItemGroup>
+    <PackageReference Include="Iop.Api" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    
+  </ItemGroup>
+</Project>
